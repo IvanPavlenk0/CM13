@@ -13,6 +13,10 @@
 		4FC6C3A726ED01960016722A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC6C3A526ED01960016722A /* Main.storyboard */; };
 		4FC6C3A926ED01970016722A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC6C3A826ED01970016722A /* Assets.xcassets */; };
 		4FC6C3AC26ED01970016722A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC6C3AA26ED01970016722A /* LaunchScreen.storyboard */; };
+		4FC6C3B426ED01EB0016722A /* UIView+RoundedBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC6C3B326ED01EB0016722A /* UIView+RoundedBorder.swift */; };
+		4FC6C3B626ED02010016722A /* CoffeeMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC6C3B526ED02010016722A /* CoffeeMachine.swift */; };
+		4FC6C3B826ED021C0016722A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC6C3B726ED021C0016722A /* SecondViewController.swift */; };
+		4FC6C3BA26EE282A0016722A /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC6C3B926EE282A0016722A /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		4FC6C3A826ED01970016722A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FC6C3AB26ED01970016722A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FC6C3AD26ED01970016722A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FC6C3B326ED01EB0016722A /* UIView+RoundedBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+RoundedBorder.swift"; sourceTree = "<group>"; };
+		4FC6C3B526ED02010016722A /* CoffeeMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeeMachine.swift; sourceTree = "<group>"; };
+		4FC6C3B726ED021C0016722A /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4FC6C3B926EE282A0016722A /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 		4FC6C39E26ED01960016722A /* CM13 */ = {
 			isa = PBXGroup;
 			children = (
+				4FC6C3B326ED01EB0016722A /* UIView+RoundedBorder.swift */,
 				4FC6C39F26ED01960016722A /* AppDelegate.swift */,
 				4FC6C3A126ED01960016722A /* SceneDelegate.swift */,
 				4FC6C3A326ED01960016722A /* ViewController.swift */,
+				4FC6C3B926EE282A0016722A /* HistoryViewController.swift */,
+				4FC6C3B726ED021C0016722A /* SecondViewController.swift */,
 				4FC6C3A526ED01960016722A /* Main.storyboard */,
+				4FC6C3B526ED02010016722A /* CoffeeMachine.swift */,
 				4FC6C3A826ED01970016722A /* Assets.xcassets */,
 				4FC6C3AA26ED01970016722A /* LaunchScreen.storyboard */,
 				4FC6C3AD26ED01970016722A /* Info.plist */,
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FC6C3B826ED021C0016722A /* SecondViewController.swift in Sources */,
+				4FC6C3B626ED02010016722A /* CoffeeMachine.swift in Sources */,
+				4FC6C3B426ED01EB0016722A /* UIView+RoundedBorder.swift in Sources */,
 				4FC6C3A426ED01960016722A /* ViewController.swift in Sources */,
 				4FC6C3A026ED01960016722A /* AppDelegate.swift in Sources */,
+				4FC6C3BA26EE282A0016722A /* HistoryViewController.swift in Sources */,
 				4FC6C3A226ED01960016722A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
